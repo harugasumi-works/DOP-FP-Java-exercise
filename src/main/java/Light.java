@@ -1,0 +1,1 @@
+public record Light(DeviceMetadata device, LightState state, ConnectionStatus connection) implements Event {}

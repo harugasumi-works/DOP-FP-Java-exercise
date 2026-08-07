@@ -1,0 +1,1 @@
+public record Temp(DeviceMetadata device, double temp, ConnectionStatus connection) implements Event {}

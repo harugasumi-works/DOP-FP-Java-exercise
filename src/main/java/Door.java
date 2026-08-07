@@ -1,0 +1,1 @@
+public record Door(DeviceMetadata device, DoorState state, ConnectionStatus connection) implements Event {}
